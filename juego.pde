@@ -1,7 +1,4 @@
-# Juego_AplastaBichos
-Juego de código simple creado con Processing
-
-Bichos[] myBichosArray = new Bichos[100];
+Bichos[] myBichosArray = new Bichos[30];
 PImage inicio;
 PImage fondo;
 PImage insecto;
@@ -9,7 +6,7 @@ int score = 0;
 int highScore = 0;
 boolean introScreen = true;
 int savedTime;
-int totalTime = 20000;
+int totalTime = 15000;
 
 void setup() {
   size(600, 600);
